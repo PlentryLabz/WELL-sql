@@ -24,8 +24,6 @@ gem 'factory_girl_rails', "~> 4.0"
 group :assets do
   gem 'sass-rails',   '~> 4.0.3'
   gem 'uglifier', '>= 1.3.0'
-
-  gem 'bower-rails'
 end
 
 group :development, :test do
@@ -55,6 +53,7 @@ gem 'high_voltage', '~> 2.1.0'
 gem 'heroku'
 gem 'devise'
 gem 'turbolinks'
+gem 'bower-rails'
 
 gem 'jbuilder', '~> 2.0'
 gem 'gon'

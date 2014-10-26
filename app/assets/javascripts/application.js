@@ -11,4 +11,19 @@
 // about supported directives.
 //
 // = require turbolinks
+
+//= require angular/angular.min
+//= require angular-route/angular-route.min
+//= require angular-resource/angular-resource.min
+//= require angular-file-upload/angular-file-upload.min
+//= require angular-loading-bar/build/loading-bar.min
+
+//= require ../angular/app.js
+//= require_tree ../angular
+
+//= require jquery/dist/jquery.min
+//= require bootstrap/dist/js/bootstrap.min
+
+// require_tree bootstrap-js-components/dist/
+
 //= require_tree .
