@@ -16,30 +16,30 @@ group :development do
   gem 'meta_request'
   gem 'faker'
 
-  gem "bullet"
+  gem 'bullet'
 end
 
 gem 'factory_girl_rails', "~> 4.0"
 
 group :assets do
   gem 'sass-rails',   '~> 4.0.3'
-  gem 'turbolinks'
-
   gem 'uglifier', '>= 1.3.0'
 
   gem 'bower-rails'
 end
 
 group :development, :test do
-  gem 'turn'
   gem 'quiet_assets'
   gem 'pry'
   gem 'awesome_print'
 
   gem 'spring'
+  gem 'rspec-rails'
+  gem 'guard'
 end
 
 gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'iconv'
 
 gem 'validates'
 gem 'virtus'
@@ -47,13 +47,14 @@ gem 'seed-fu'
 gem 'carrierwave'
 gem 'carrierwave_backgrounder'
 gem 'mini_magick'
-gem "fog"
+gem 'fog'
 gem 'ancestry'
-gem "cocoon"
+gem 'cocoon'
 gem 'configus'
 gem 'high_voltage', '~> 2.1.0'
 gem 'heroku'
 gem 'devise'
+gem 'turbolinks'
 
 gem 'jbuilder', '~> 2.0'
 gem 'gon'
