@@ -13,4 +13,6 @@ json.(@user,
 
 json.pic @user.pic.url
 
-json.city(@user.city, :id, :name_ru, :name_en, :time_zone, :latitude, :longitute)
+if @user.city.present?
+  json.city(@user.city, :id, :name_ru, :name_en, :time_zone, :latitude, :longitute)
+end

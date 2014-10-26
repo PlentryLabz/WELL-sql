@@ -5,11 +5,11 @@ class ApplicationUploader < CarrierWave::Uploader::Base
   storage :fog
 
   def store_dir
-    "system/uploads/#{model.class.model_name.underscore}"
+    "system/uploads/#{model.class.to_s.underscore}"
   end
 
   def default_url
-    "/assets/fallback/#{model.class.model_name.underscore}/pic.png"
+    "/assets/fallback/#{model.class.to_s.underscore}/pic.png"
   end
 
   def extension_white_list
