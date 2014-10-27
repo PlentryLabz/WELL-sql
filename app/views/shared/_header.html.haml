@@ -1,0 +1,10 @@
+%header
+.navbar
+  .navbar-inner
+    %ul.nav
+      %li.active
+        = link_to t('.users_link'), web_path(:users)
+
+      - if signed_in?
+        %li= current_user.full_name
+      %li= link_to t('.sign_out_link'), destroy_user_session_path, method: 'delete'

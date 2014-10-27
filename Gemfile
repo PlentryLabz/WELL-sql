@@ -52,7 +52,9 @@ gem 'configus'
 gem 'high_voltage', '~> 2.1.0'
 gem 'heroku'
 gem 'devise'
+
 gem 'turbolinks'
+gem 'jquery-rails'
 gem 'bower-rails'
 
 gem 'jbuilder', '~> 2.0'
